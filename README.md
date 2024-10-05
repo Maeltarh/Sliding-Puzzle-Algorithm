@@ -1,2 +1,2 @@
 # Sliding-Puzzle-Algorithm
-A program that can solve sliding puzzle using an algorithm in C++
+A program that can solve sliding puzzle using the A* algorithm in C++
