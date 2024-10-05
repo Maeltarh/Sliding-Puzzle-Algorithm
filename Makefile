@@ -40,11 +40,11 @@ all: $(NAME)
 $(NAME): $(OBJ) $(HEADER)
 	@$(CC) $(OBJ) $(OPTS) -o $(NAME)
 	@echo ""
-	@python3 test.py "$(NAME)"
+	@python3 skin.py "$(NAME)"
 	@echo ""
 	@echo -e "$(NC)Welcome to n-puzzle ! Here's how to use it :"
 	@echo "  You can start with three arguments, one to use a defined set of tiles, or one to creat a random set :"
-	@echo "   - ./n-puzzle <file_name> parse"
+	@echo "   - ./n-puzzle <puzzle/file_name> parse"
 	@echo "   - ./n-puzzle <number of tiles per side> random"
 	@echo "   - Next you can chose the search settings : default / uniform / greedy"
 	@echo "   - Finally, you can choose to use only one heuristic, but I must warn you, this is not recommended :"
