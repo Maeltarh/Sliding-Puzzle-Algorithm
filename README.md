@@ -45,3 +45,6 @@ The input files must follow the format below:
 ```
 ## Bonus
 The project also includes implementations of uniform-cost search and greedy search. These algorithms are executed with the same heuristics but may produce different solutions.
+
+#
+*This project is inspired by the "n-puzzle" assignment from my curriculum at 42 School.*
